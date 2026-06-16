@@ -119,7 +119,7 @@ body {
 }
 
 @media (max-width: 900px) {
-  .two-col { grid-template-columns: 1fr; }
+  .two-col { grid-template-columns: 1fr !important; }
   .three-col { grid-template-columns: 1fr; }
 }
 
@@ -202,7 +202,7 @@ body {
 
 .camera-wrapper.active { border-color: #4f46e5; box-shadow: 0 0 0 3px rgba(79,70,229,0.1); }
 
-video { width: 100%; border-radius: 12px; display: block; }
+video { width: 100%; height: 100%; object-fit: cover; border-radius: 12px; display: block; }
 
 .camera-placeholder {
   display: flex;
@@ -395,8 +395,8 @@ input[type=range] { width: 100%; accent-color: #4f46e5; }
   /* Panels */
   .panel { padding: 16px; }
 
-  /* Camera full width, shorter height */
-  .camera-wrapper { min-height: 220px; width: 100%; }
+  /* Camera full width, fixed height range */
+  .camera-wrapper { min-height: 280px; max-height: 320px; width: 100%; }
 
   /* History items wrap instead of overflow */
   .history-item {
