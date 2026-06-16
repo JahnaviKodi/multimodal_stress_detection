@@ -141,8 +141,10 @@ export default function App() {
   const [history, setHistory]       = useState([]);
   const [frameCount, setFrameCount] = useState(0);
 
+  const API_URL = process.env.REACT_APP_API_URL || 'http://127.0.0.1:5000';
+
   useEffect(() => {
-    fetch('http://127.0.0.1:5000/history')
+    fetch(`${API_URL}/history`)
       .then(r => r.json())
       .then(d => setHistory(d.reverse()))
       .catch(() => {});
@@ -207,7 +209,7 @@ export default function App() {
     await new Promise(r => setTimeout(r, 800));
 
     try {
-      const res = await fetch('http://127.0.0.1:5000/analyse', {
+      const res = await fetch(`${API_URL}/analyse`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

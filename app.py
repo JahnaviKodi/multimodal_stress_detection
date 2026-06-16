@@ -14,14 +14,21 @@ import keras
 from keras.models import load_model
 from scipy.signal import butter, filtfilt, find_peaks
 
-# Set ffmpeg path for pydub
-ffmpeg_path = r"C:\Users\jahna\Downloads\ffmpeg-8.1.1-essentials_build\ffmpeg-8.1.1-essentials_build\bin"
-os.environ["PATH"] += os.pathsep + ffmpeg_path
-
 from pydub import AudioSegment
-AudioSegment.converter = os.path.join(ffmpeg_path, "ffmpeg.exe")
-AudioSegment.ffmpeg    = os.path.join(ffmpeg_path, "ffmpeg.exe")
-AudioSegment.ffprobe   = os.path.join(ffmpeg_path, "ffprobe.exe")
+import shutil
+
+# Allow overriding ffmpeg location via env var; fall back to whatever is on PATH
+_ffmpeg_dir = os.environ.get("FFMPEG_BIN_DIR", "")
+if _ffmpeg_dir:
+    os.environ["PATH"] += os.pathsep + _ffmpeg_dir
+
+_ffmpeg_bin  = shutil.which("ffmpeg")
+_ffprobe_bin = shutil.which("ffprobe")
+if _ffmpeg_bin:
+    AudioSegment.converter = _ffmpeg_bin
+    AudioSegment.ffmpeg    = _ffmpeg_bin
+if _ffprobe_bin:
+    AudioSegment.ffprobe   = _ffprobe_bin
 
 app = Flask(__name__)
 CORS(app)

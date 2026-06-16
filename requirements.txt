@@ -8,3 +8,9 @@ tensorflow
 keras
 soundfile
 jupyter
+flask
+flask-cors
+deepface
+pydub
+scipy
+gunicorn

@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: multimodal-stress-detection-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT --workers 1 --timeout 120
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.0
+    disk:
+      name: models
+      mountPath: /opt/render/project/src/models
+      sizeGB: 1
+
+  - type: web
+    name: multimodal-stress-detection-frontend
+    env: static
+    buildCommand: cd frontend && npm install && npm run build
+    staticPublishPath: frontend/build
+    envVars:
+      - key: REACT_APP_API_URL
+        sync: false

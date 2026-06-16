@@ -710,5 +710,30 @@
       "Prioritise your tasks and focus on one thing at a time."
     ],
     "timestamp": "2026-06-15T09:46:08.613079"
+  },
+  {
+    "fusion": 53.1,
+    "label": "MEDIUM",
+    "breakdown": {
+      "facial": 45.4,
+      "audio": 80.0,
+      "physiological": 32.0
+    },
+    "dominant_emotion": "neutral",
+    "audio_emotion": "disgust",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 10,
+    "frames_rejected": 1,
+    "modalities_used": "3 modalities (face + voice + heart rate)",
+    "facial_available": true,
+    "audio_available": true,
+    "recommendations": [
+      "Take a short break and stretch for 5 minutes.",
+      "Practice slow, deep breathing for 2 minutes.",
+      "Have a healthy snack and stay hydrated.",
+      "Prioritise your tasks and focus on one thing at a time."
+    ],
+    "timestamp": "2026-06-16T12:55:14.356645"
   }
 ]
