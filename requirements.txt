@@ -4,7 +4,8 @@ opencv-python
 librosa
 scikit-learn
 matplotlib
-tensorflow
+tensorflow==2.15.0
+tf-keras
 keras
 soundfile
 jupyter
