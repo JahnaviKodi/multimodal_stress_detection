@@ -2,7 +2,7 @@ services:
   - type: web
     name: multimodal-stress-detection-api
     env: python
-    buildCommand: pip install -r requirements.txt && python download_models.py
+    buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app --bind 0.0.0.0:$PORT --workers 1 --timeout 120
     envVars:
       - key: PYTHON_VERSION
