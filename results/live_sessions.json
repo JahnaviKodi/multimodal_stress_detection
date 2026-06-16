@@ -1,0 +1,714 @@
+[
+  {
+    "fusion": 48.7,
+    "label": "MEDIUM",
+    "breakdown": {
+      "facial": 36.6,
+      "audio": 80.0,
+      "physiological": 32.0
+    },
+    "dominant_emotion": "happy",
+    "audio_emotion": "disgust",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 11,
+    "frames_rejected": 0,
+    "modalities_used": "3 modalities (face + voice + heart rate)",
+    "facial_available": true,
+    "audio_available": true,
+    "recommendations": [
+      "Take a short break and stretch for 5 minutes.",
+      "Practice slow, deep breathing for 2 minutes.",
+      "Have a healthy snack and stay hydrated.",
+      "Prioritise your tasks and focus on one thing at a time."
+    ],
+    "timestamp": "2026-05-21T01:17:08.692463"
+  },
+  {
+    "fusion": 53.3,
+    "label": "MEDIUM",
+    "breakdown": {
+      "facial": 45.8,
+      "audio": 80.0,
+      "physiological": 32.0
+    },
+    "dominant_emotion": "neutral",
+    "audio_emotion": "disgust",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 4,
+    "frames_rejected": 9,
+    "modalities_used": "3 modalities (face + voice + heart rate)",
+    "facial_available": true,
+    "audio_available": true,
+    "recommendations": [
+      "Take a short break and stretch for 5 minutes.",
+      "Practice slow, deep breathing for 2 minutes.",
+      "Have a healthy snack and stay hydrated.",
+      "Prioritise your tasks and focus on one thing at a time."
+    ],
+    "timestamp": "2026-05-21T01:18:01.907103"
+  },
+  {
+    "fusion": 53.7,
+    "label": "MEDIUM",
+    "breakdown": {
+      "facial": 46.6,
+      "audio": 80.0,
+      "physiological": 32.0
+    },
+    "dominant_emotion": "neutral",
+    "audio_emotion": "disgust",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 18,
+    "frames_rejected": 3,
+    "modalities_used": "3 modalities (face + voice + heart rate)",
+    "facial_available": true,
+    "audio_available": true,
+    "recommendations": [
+      "Take a short break and stretch for 5 minutes.",
+      "Practice slow, deep breathing for 2 minutes.",
+      "Have a healthy snack and stay hydrated.",
+      "Prioritise your tasks and focus on one thing at a time."
+    ],
+    "timestamp": "2026-05-21T01:18:31.445671"
+  },
+  {
+    "fusion": 67.9,
+    "label": "MEDIUM",
+    "breakdown": {
+      "audio": 79.9,
+      "physiological": 32.0
+    },
+    "dominant_emotion": null,
+    "audio_emotion": "disgust",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 0,
+    "frames_rejected": 15,
+    "modalities_used": "2 modalities (voice + heart rate)",
+    "facial_available": false,
+    "audio_available": true,
+    "recommendations": [
+      "Take a short break and stretch for 5 minutes.",
+      "Practice slow, deep breathing for 2 minutes.",
+      "Have a healthy snack and stay hydrated.",
+      "Prioritise your tasks and focus on one thing at a time."
+    ],
+    "timestamp": "2026-05-21T01:19:22.204445"
+  },
+  {
+    "fusion": 68.0,
+    "label": "HIGH",
+    "breakdown": {
+      "audio": 80.0,
+      "physiological": 32.0
+    },
+    "dominant_emotion": null,
+    "audio_emotion": "disgust",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 0,
+    "frames_rejected": 17,
+    "modalities_used": "2 modalities (voice + heart rate)",
+    "facial_available": false,
+    "audio_available": true,
+    "recommendations": [
+      "Take deep breaths \u2014 inhale for 4 seconds, hold for 4, exhale for 4.",
+      "Step away from your screen and take a 10-minute walk.",
+      "Drink a glass of water and rest your eyes.",
+      "Listen to calm music or practice mindfulness.",
+      "Consider talking to someone you trust about what is stressing you."
+    ],
+    "timestamp": "2026-05-21T01:24:46.908298"
+  },
+  {
+    "fusion": 68.0,
+    "label": "HIGH",
+    "breakdown": {
+      "audio": 80.0,
+      "physiological": 32.0
+    },
+    "dominant_emotion": null,
+    "audio_emotion": "disgust",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 0,
+    "frames_rejected": 11,
+    "modalities_used": "2 modalities (voice + heart rate)",
+    "facial_available": false,
+    "audio_available": true,
+    "recommendations": [
+      "Take deep breaths \u2014 inhale for 4 seconds, hold for 4, exhale for 4.",
+      "Step away from your screen and take a 10-minute walk.",
+      "Drink a glass of water and rest your eyes.",
+      "Listen to calm music or practice mindfulness.",
+      "Consider talking to someone you trust about what is stressing you."
+    ],
+    "timestamp": "2026-05-21T01:33:41.920846"
+  },
+  {
+    "fusion": 48.3,
+    "label": "MEDIUM",
+    "breakdown": {
+      "facial": 35.9,
+      "audio": 79.9,
+      "physiological": 32.0
+    },
+    "dominant_emotion": "neutral",
+    "audio_emotion": "disgust",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 11,
+    "frames_rejected": 0,
+    "modalities_used": "3 modalities (face + voice + heart rate)",
+    "facial_available": true,
+    "audio_available": true,
+    "recommendations": [
+      "Take a short break and stretch for 5 minutes.",
+      "Practice slow, deep breathing for 2 minutes.",
+      "Have a healthy snack and stay hydrated.",
+      "Prioritise your tasks and focus on one thing at a time."
+    ],
+    "timestamp": "2026-05-21T01:43:24.479310"
+  },
+  {
+    "fusion": 55.7,
+    "label": "MEDIUM",
+    "breakdown": {
+      "facial": 50.8,
+      "audio": 79.8,
+      "physiological": 32.0
+    },
+    "dominant_emotion": "neutral",
+    "audio_emotion": "disgust",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 11,
+    "frames_rejected": 0,
+    "modalities_used": "3 modalities (face + voice + heart rate)",
+    "facial_available": true,
+    "audio_available": true,
+    "recommendations": [
+      "Take a short break and stretch for 5 minutes.",
+      "Practice slow, deep breathing for 2 minutes.",
+      "Have a healthy snack and stay hydrated.",
+      "Prioritise your tasks and focus on one thing at a time."
+    ],
+    "timestamp": "2026-05-21T01:49:57.906702"
+  },
+  {
+    "fusion": 41.1,
+    "label": "MEDIUM",
+    "breakdown": {
+      "facial": 45.4,
+      "audio": 40.0,
+      "physiological": 32.0
+    },
+    "dominant_emotion": "neutral",
+    "audio_emotion": "neutral",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 10,
+    "frames_rejected": 0,
+    "modalities_used": "3 modalities (face + voice + heart rate)",
+    "facial_available": true,
+    "audio_available": true,
+    "recommendations": [
+      "Take a short break and stretch for 5 minutes.",
+      "Practice slow, deep breathing for 2 minutes.",
+      "Have a healthy snack and stay hydrated.",
+      "Prioritise your tasks and focus on one thing at a time."
+    ],
+    "timestamp": "2026-05-21T01:52:19.427862"
+  },
+  {
+    "fusion": 32.3,
+    "label": "LOW",
+    "breakdown": {
+      "facial": 45.8,
+      "audio": 10.0,
+      "physiological": 32.0
+    },
+    "dominant_emotion": "neutral",
+    "audio_emotion": "happy",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 11,
+    "frames_rejected": 0,
+    "modalities_used": "3 modalities (face + voice + heart rate)",
+    "facial_available": true,
+    "audio_available": true,
+    "recommendations": [
+      "Great job! You are calm and managing well.",
+      "Keep maintaining your healthy routine.",
+      "Stay hydrated and keep up the good work."
+    ],
+    "timestamp": "2026-05-21T01:52:44.570050"
+  },
+  {
+    "fusion": 40.4,
+    "label": "MEDIUM",
+    "breakdown": {
+      "facial": 43.9,
+      "audio": 40.0,
+      "physiological": 32.0
+    },
+    "dominant_emotion": "neutral",
+    "audio_emotion": "neutral",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 11,
+    "frames_rejected": 0,
+    "modalities_used": "3 modalities (face + voice + heart rate)",
+    "facial_available": true,
+    "audio_available": true,
+    "recommendations": [
+      "Take a short break and stretch for 5 minutes.",
+      "Practice slow, deep breathing for 2 minutes.",
+      "Have a healthy snack and stay hydrated.",
+      "Prioritise your tasks and focus on one thing at a time."
+    ],
+    "timestamp": "2026-05-21T01:53:05.843891"
+  },
+  {
+    "fusion": 15.5,
+    "label": "LOW",
+    "breakdown": {
+      "audio": 10.0,
+      "physiological": 32.0
+    },
+    "dominant_emotion": null,
+    "audio_emotion": "happy",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 0,
+    "frames_rejected": 12,
+    "modalities_used": "2 modalities (voice + heart rate)",
+    "facial_available": false,
+    "audio_available": true,
+    "recommendations": [
+      "Great job! You are calm and managing well.",
+      "Keep maintaining your healthy routine.",
+      "Stay hydrated and keep up the good work."
+    ],
+    "timestamp": "2026-05-21T01:53:50.517390"
+  },
+  {
+    "fusion": 34.2,
+    "label": "LOW",
+    "breakdown": {
+      "audio": 35.0,
+      "physiological": 32.0
+    },
+    "dominant_emotion": null,
+    "audio_emotion": "surprise",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 0,
+    "frames_rejected": 21,
+    "modalities_used": "2 modalities (voice + heart rate)",
+    "facial_available": false,
+    "audio_available": true,
+    "recommendations": [
+      "Great job! You are calm and managing well.",
+      "Keep maintaining your healthy routine.",
+      "Stay hydrated and keep up the good work."
+    ],
+    "timestamp": "2026-05-21T01:54:37.333281"
+  },
+  {
+    "fusion": 34.2,
+    "label": "LOW",
+    "breakdown": {
+      "audio": 35.0,
+      "physiological": 32.0
+    },
+    "dominant_emotion": null,
+    "audio_emotion": "surprise",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 0,
+    "frames_rejected": 14,
+    "modalities_used": "2 modalities (voice + heart rate)",
+    "facial_available": false,
+    "audio_available": true,
+    "recommendations": [
+      "Great job! You are calm and managing well.",
+      "Keep maintaining your healthy routine.",
+      "Stay hydrated and keep up the good work."
+    ],
+    "timestamp": "2026-05-21T01:55:01.010068"
+  },
+  {
+    "fusion": 38.0,
+    "label": "MEDIUM",
+    "breakdown": {
+      "audio": 40.0,
+      "physiological": 32.0
+    },
+    "dominant_emotion": null,
+    "audio_emotion": "neutral",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 0,
+    "frames_rejected": 7,
+    "modalities_used": "2 modalities (voice + heart rate)",
+    "facial_available": false,
+    "audio_available": true,
+    "recommendations": [
+      "Take a short break and stretch for 5 minutes.",
+      "Practice slow, deep breathing for 2 minutes.",
+      "Have a healthy snack and stay hydrated.",
+      "Prioritise your tasks and focus on one thing at a time."
+    ],
+    "timestamp": "2026-05-21T01:57:32.778078"
+  },
+  {
+    "fusion": 37.5,
+    "label": "MEDIUM",
+    "breakdown": {
+      "facial": 38.3,
+      "audio": 40.0,
+      "physiological": 32.0
+    },
+    "dominant_emotion": "neutral",
+    "audio_emotion": "neutral",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 4,
+    "frames_rejected": 3,
+    "modalities_used": "3 modalities (face + voice + heart rate)",
+    "facial_available": true,
+    "audio_available": true,
+    "recommendations": [
+      "Take a short break and stretch for 5 minutes.",
+      "Practice slow, deep breathing for 2 minutes.",
+      "Have a healthy snack and stay hydrated.",
+      "Prioritise your tasks and focus on one thing at a time."
+    ],
+    "timestamp": "2026-05-21T01:57:56.505851"
+  },
+  {
+    "fusion": 54.9,
+    "label": "MEDIUM",
+    "breakdown": {
+      "facial": 49.0,
+      "audio": 79.9,
+      "physiological": 32.0
+    },
+    "dominant_emotion": "neutral",
+    "audio_emotion": "disgust",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 9,
+    "frames_rejected": 7,
+    "modalities_used": "3 modalities (face + voice + heart rate)",
+    "facial_available": true,
+    "audio_available": true,
+    "recommendations": [
+      "Take a short break and stretch for 5 minutes.",
+      "Practice slow, deep breathing for 2 minutes.",
+      "Have a healthy snack and stay hydrated.",
+      "Prioritise your tasks and focus on one thing at a time."
+    ],
+    "timestamp": "2026-05-24T20:35:00.788225"
+  },
+  {
+    "fusion": 38.9,
+    "label": "MEDIUM",
+    "breakdown": {
+      "facial": 16.9,
+      "audio": 80.0,
+      "physiological": 32.0
+    },
+    "dominant_emotion": "happy",
+    "audio_emotion": "disgust",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 1,
+    "frames_rejected": 11,
+    "modalities_used": "3 modalities (face + voice + heart rate)",
+    "facial_available": true,
+    "audio_available": true,
+    "recommendations": [
+      "Take a short break and stretch for 5 minutes.",
+      "Practice slow, deep breathing for 2 minutes.",
+      "Have a healthy snack and stay hydrated.",
+      "Prioritise your tasks and focus on one thing at a time."
+    ],
+    "timestamp": "2026-05-24T20:35:22.975399"
+  },
+  {
+    "fusion": 62.9,
+    "label": "MEDIUM",
+    "breakdown": {
+      "facial": 65.0,
+      "audio": 79.9,
+      "physiological": 32.0
+    },
+    "dominant_emotion": "sad",
+    "audio_emotion": "disgust",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 9,
+    "frames_rejected": 1,
+    "modalities_used": "3 modalities (face + voice + heart rate)",
+    "facial_available": true,
+    "audio_available": true,
+    "recommendations": [
+      "Take a short break and stretch for 5 minutes.",
+      "Practice slow, deep breathing for 2 minutes.",
+      "Have a healthy snack and stay hydrated.",
+      "Prioritise your tasks and focus on one thing at a time."
+    ],
+    "timestamp": "2026-05-24T22:14:54.133952"
+  },
+  {
+    "fusion": 43.6,
+    "label": "MEDIUM",
+    "breakdown": {
+      "facial": 37.8,
+      "audio": 60.9,
+      "physiological": 32.0
+    },
+    "dominant_emotion": "happy",
+    "audio_emotion": "disgust",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 5,
+    "frames_rejected": 3,
+    "modalities_used": "3 modalities (face + voice + heart rate)",
+    "facial_available": true,
+    "audio_available": true,
+    "recommendations": [
+      "Take a short break and stretch for 5 minutes.",
+      "Practice slow, deep breathing for 2 minutes.",
+      "Have a healthy snack and stay hydrated.",
+      "Prioritise your tasks and focus on one thing at a time."
+    ],
+    "timestamp": "2026-05-24T22:20:53.774505"
+  },
+  {
+    "fusion": 39.6,
+    "label": "MEDIUM",
+    "breakdown": {
+      "facial": 18.5,
+      "audio": 79.9,
+      "physiological": 32.0
+    },
+    "dominant_emotion": "happy",
+    "audio_emotion": "disgust",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 9,
+    "frames_rejected": 0,
+    "modalities_used": "3 modalities (face + voice + heart rate)",
+    "facial_available": true,
+    "audio_available": true,
+    "recommendations": [
+      "Take a short break and stretch for 5 minutes.",
+      "Practice slow, deep breathing for 2 minutes.",
+      "Have a healthy snack and stay hydrated.",
+      "Prioritise your tasks and focus on one thing at a time."
+    ],
+    "timestamp": "2026-06-14T10:06:26.507764"
+  },
+  {
+    "fusion": 53.3,
+    "label": "MEDIUM",
+    "breakdown": {
+      "facial": 45.7,
+      "audio": 80.1,
+      "physiological": 32.0
+    },
+    "dominant_emotion": "neutral",
+    "audio_emotion": "disgust",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 32,
+    "frames_rejected": 0,
+    "modalities_used": "3 modalities (face + voice + heart rate)",
+    "facial_available": true,
+    "audio_available": true,
+    "recommendations": [
+      "Take a short break and stretch for 5 minutes.",
+      "Practice slow, deep breathing for 2 minutes.",
+      "Have a healthy snack and stay hydrated.",
+      "Prioritise your tasks and focus on one thing at a time."
+    ],
+    "timestamp": "2026-06-14T10:46:08.646012"
+  },
+  {
+    "fusion": 53.5,
+    "label": "MEDIUM",
+    "breakdown": {
+      "facial": 46.6,
+      "audio": 79.3,
+      "physiological": 32.0
+    },
+    "dominant_emotion": "surprise",
+    "audio_emotion": "disgust",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 9,
+    "frames_rejected": 4,
+    "modalities_used": "3 modalities (face + voice + heart rate)",
+    "facial_available": true,
+    "audio_available": true,
+    "recommendations": [
+      "Take a short break and stretch for 5 minutes.",
+      "Practice slow, deep breathing for 2 minutes.",
+      "Have a healthy snack and stay hydrated.",
+      "Prioritise your tasks and focus on one thing at a time."
+    ],
+    "timestamp": "2026-06-14T10:59:13.648572"
+  },
+  {
+    "fusion": 52.2,
+    "label": "MEDIUM",
+    "breakdown": {
+      "facial": 57.3,
+      "physiological": 32.0
+    },
+    "dominant_emotion": "neutral",
+    "audio_emotion": null,
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 20,
+    "frames_rejected": 0,
+    "modalities_used": "2 modalities (face + heart rate)",
+    "facial_available": true,
+    "audio_available": false,
+    "recommendations": [
+      "Take a short break and stretch for 5 minutes.",
+      "Practice slow, deep breathing for 2 minutes.",
+      "Have a healthy snack and stay hydrated.",
+      "Prioritise your tasks and focus on one thing at a time."
+    ],
+    "timestamp": "2026-06-14T11:33:20.494420"
+  },
+  {
+    "fusion": 47.8,
+    "label": "MEDIUM",
+    "breakdown": {
+      "facial": 34.9,
+      "audio": 79.9,
+      "physiological": 32.0
+    },
+    "dominant_emotion": "neutral",
+    "audio_emotion": "disgust",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 10,
+    "frames_rejected": 10,
+    "modalities_used": "3 modalities (face + voice + heart rate)",
+    "facial_available": true,
+    "audio_available": true,
+    "recommendations": [
+      "Take a short break and stretch for 5 minutes.",
+      "Practice slow, deep breathing for 2 minutes.",
+      "Have a healthy snack and stay hydrated.",
+      "Prioritise your tasks and focus on one thing at a time."
+    ],
+    "timestamp": "2026-06-14T11:44:50.968012"
+  },
+  {
+    "fusion": 67.8,
+    "label": "MEDIUM",
+    "breakdown": {
+      "audio": 79.8,
+      "physiological": 32.0
+    },
+    "dominant_emotion": null,
+    "audio_emotion": "disgust",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 0,
+    "frames_rejected": 13,
+    "modalities_used": "2 modalities (voice + heart rate)",
+    "facial_available": false,
+    "audio_available": true,
+    "recommendations": [
+      "Take a short break and stretch for 5 minutes.",
+      "Practice slow, deep breathing for 2 minutes.",
+      "Have a healthy snack and stay hydrated.",
+      "Prioritise your tasks and focus on one thing at a time."
+    ],
+    "timestamp": "2026-06-14T13:24:36.861271"
+  },
+  {
+    "fusion": 67.2,
+    "label": "MEDIUM",
+    "breakdown": {
+      "audio": 79.0,
+      "physiological": 32.0
+    },
+    "dominant_emotion": null,
+    "audio_emotion": "disgust",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 0,
+    "frames_rejected": 14,
+    "modalities_used": "2 modalities (voice + heart rate)",
+    "facial_available": false,
+    "audio_available": true,
+    "recommendations": [
+      "Take a short break and stretch for 5 minutes.",
+      "Practice slow, deep breathing for 2 minutes.",
+      "Have a healthy snack and stay hydrated.",
+      "Prioritise your tasks and focus on one thing at a time."
+    ],
+    "timestamp": "2026-06-14T13:25:00.099088"
+  },
+  {
+    "fusion": 59.4,
+    "label": "MEDIUM",
+    "breakdown": {
+      "facial": 58.4,
+      "audio": 79.4,
+      "physiological": 32.0
+    },
+    "dominant_emotion": "neutral",
+    "audio_emotion": "disgust",
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 17,
+    "frames_rejected": 0,
+    "modalities_used": "3 modalities (face + voice + heart rate)",
+    "facial_available": true,
+    "audio_available": true,
+    "recommendations": [
+      "Take a short break and stretch for 5 minutes.",
+      "Practice slow, deep breathing for 2 minutes.",
+      "Have a healthy snack and stay hydrated.",
+      "Prioritise your tasks and focus on one thing at a time."
+    ],
+    "timestamp": "2026-06-14T20:01:07.896239"
+  },
+  {
+    "fusion": 48.8,
+    "label": "MEDIUM",
+    "breakdown": {
+      "facial": 53.0,
+      "physiological": 32.0
+    },
+    "dominant_emotion": "neutral",
+    "audio_emotion": null,
+    "estimated_hr": 72.0,
+    "hr_source": "manual slider",
+    "frames_used": 12,
+    "frames_rejected": 0,
+    "modalities_used": "2 modalities (face + heart rate)",
+    "facial_available": true,
+    "audio_available": false,
+    "recommendations": [
+      "Take a short break and stretch for 5 minutes.",
+      "Practice slow, deep breathing for 2 minutes.",
+      "Have a healthy snack and stay hydrated.",
+      "Prioritise your tasks and focus on one thing at a time."
+    ],
+    "timestamp": "2026-06-15T09:46:08.613079"
+  }
+]

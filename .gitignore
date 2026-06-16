@@ -1,0 +1,40 @@
+# Python virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights & large binaries
+*.h5
+*.pkl
+*.pth
+*.ckpt
+*.pb
+
+# Data files (large datasets)
+data/raw/
+*.wav
+*.mp4
+*.avi
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs & outputs
+*.log
+logs/

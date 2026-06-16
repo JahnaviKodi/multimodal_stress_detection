@@ -1,0 +1,23 @@
+Facial Model
+Accuracy:
+Precision:
+Recall:
+F1-score:
+
+Audio Model
+Accuracy:
+Precision:
+Recall:
+F1-score:
+
+Physiological Model
+Accuracy:
+Precision:
+Recall:
+F1-score:
+
+Fusion Model
+Accuracy:
+Precision:
+Recall:
+F1-score:

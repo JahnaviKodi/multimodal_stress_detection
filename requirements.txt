@@ -1,0 +1,10 @@
+numpy
+pandas
+opencv-python
+librosa
+scikit-learn
+matplotlib
+tensorflow
+keras
+soundfile
+jupyter
