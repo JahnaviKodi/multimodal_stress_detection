@@ -141,7 +141,7 @@ export default function App() {
   const [history, setHistory]       = useState([]);
   const [frameCount, setFrameCount] = useState(0);
 
-  const API_URL = process.env.REACT_APP_API_URL || 'http://127.0.0.1:5000';
+  const API_URL = 'https://multimodal-stress-detection-d5bk.onrender.com';
 
   useEffect(() => {
     fetch(`${API_URL}/history`)
