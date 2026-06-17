@@ -51,13 +51,13 @@ if _ffprobe_bin:
     AudioSegment.ffprobe   = _ffprobe_bin
 
 app = Flask(__name__)
-CORS(app, origins=["*"], supports_credentials=False)
+CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=False)
 
 @app.after_request
-def after_request(response):
-    response.headers.add('Access-Control-Allow-Origin', '*')
-    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
-    response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS')
+def add_cors_headers(response):
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    response.headers['Access-Control-Allow-Methods'] = 'GET, POST, OPTIONS'
+    response.headers['Access-Control-Allow-Headers'] = 'Content-Type'
     return response
 
 BASE = os.path.dirname(os.path.abspath(__file__))
@@ -346,8 +346,12 @@ def analyse_physiological(hr):
         print(f"  Physio error: {e}")
         return 30.0
 
-@app.route('/analyse', methods=['POST'])
+@app.route('/analyse', methods=['POST', 'OPTIONS'])
 def analyse():
+    # Respond to CORS preflight requests
+    if request.method == 'OPTIONS':
+        return ('', 204)
+
     data   = request.json
     frames = data.get('frames',    [])
     hr     = data.get('heartRate', 72)
